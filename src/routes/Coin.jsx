@@ -23,7 +23,7 @@ const Coin = () => {
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [url]);
   return (
     <motion.div initial="hidden" animate="visible" variants={fadeInUp}>
       <div className="coin-container">
